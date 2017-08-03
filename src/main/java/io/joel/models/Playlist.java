@@ -19,6 +19,8 @@ public class Playlist {
     private List<Song> songs;
 
     private String owner;
+
+    @Column(name = "playlist_order")
     private int order;
 
     public Playlist() { }
